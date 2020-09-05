@@ -7,7 +7,7 @@ app = Flask(__name__) # Inicializar Flash + confirmar que es el archivo principa
 def home():
     return "HOME PAGE\nHoliwis :D"
 
-@app.route('/about')
+@app.route('/about') # Creando el ABOUT localhost:5000/about
 def about():
     return "ABOUT: @ANGRYDANY"
 
