@@ -5,7 +5,23 @@ app = Flask(__name__) # Inicializar Flash + confirmar que es el archivo principa
 # Crear una ruta con un decorador
 @app.route('/') #creo una ruta para la página principal
 def home():
-    return "Holiwis :D"
+    return "HOME PAGE\nHoliwis :D"
+
+@app.route('/about')
+def about():
+    return "ABOUT: @ANGRYDANY"
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 if __name__=="__main__":
